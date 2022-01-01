@@ -7,7 +7,7 @@ cap = cv2.VideoCapture(0)
 
 # Check if camera opened successfully
 if cap.isOpened() is False:
-    print("Error opening video stream or file")
+    print("Error opening video stream")
 
 # Read until video is completed
 while cap.isOpened():
